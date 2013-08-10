@@ -202,6 +202,11 @@
 		F782757B179C2DB1001DF4D3 /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F782757A179C2DB1001DF4D3 /* HttpClient.cpp */; };
 		F7827584179C2DB1001DF4D3 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7827583179C2DB1001DF4D3 /* AppDelegate.cpp */; };
 		F7827587179C2DB1001DF4D3 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7827586179C2DB1001DF4D3 /* HelloWorldScene.cpp */; };
+		F782758E179C2E3B001DF4D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F782758D179C2E3B001DF4D3 /* Default-568h@2x.png */; };
+		F7827590179C30C6001DF4D3 /* BM-HANNA.otf in Resources */ = {isa = PBXBuildFile; fileRef = F782758F179C30C6001DF4D3 /* BM-HANNA.otf */; };
+		F7827593179C3364001DF4D3 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7827591179C3364001DF4D3 /* GameScene.cpp */; };
+		F7827598179C35CA001DF4D3 /* HelpScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7827594179C35C9001DF4D3 /* HelpScene.cpp */; };
+		F7827599179C35CA001DF4D3 /* OptionScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7827596179C35C9001DF4D3 /* OptionScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -634,6 +639,14 @@
 		F7827583179C2DB1001DF4D3 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		F7827585179C2DB1001DF4D3 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		F7827586179C2DB1001DF4D3 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		F782758D179C2E3B001DF4D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F782758F179C30C6001DF4D3 /* BM-HANNA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BM-HANNA.otf"; path = "../../../../hwani5 폴더/download/temp/BM-HANNA.otf"; sourceTree = "<group>"; };
+		F7827591179C3364001DF4D3 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Classes/GameScene.cpp; sourceTree = "<group>"; };
+		F7827592179C3364001DF4D3 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/GameScene.h; sourceTree = "<group>"; };
+		F7827594179C35C9001DF4D3 /* HelpScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelpScene.cpp; path = Classes/HelpScene.cpp; sourceTree = "<group>"; };
+		F7827595179C35C9001DF4D3 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpScene.h; path = Classes/HelpScene.h; sourceTree = "<group>"; };
+		F7827596179C35C9001DF4D3 /* OptionScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OptionScene.cpp; path = Classes/OptionScene.cpp; sourceTree = "<group>"; };
+		F7827597179C35C9001DF4D3 /* OptionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionScene.h; path = Classes/OptionScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -659,6 +672,7 @@
 		F78272D9179C2DAA001DF4D3 = {
 			isa = PBXGroup;
 			children = (
+				F782758D179C2E3B001DF4D3 /* Default-568h@2x.png */,
 				F78272F5179C2DAA001DF4D3 /* memorygame */,
 				F78272E4179C2DAA001DF4D3 /* Frameworks */,
 				F78272E3179C2DAA001DF4D3 /* Products */,
@@ -703,6 +717,7 @@
 		F78272F6179C2DAA001DF4D3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F782758F179C30C6001DF4D3 /* BM-HANNA.otf */,
 				F78272F7179C2DAA001DF4D3 /* CloseNormal.png */,
 				F78272F9179C2DAA001DF4D3 /* CloseSelected.png */,
 				F78272FB179C2DAB001DF4D3 /* Default.png */,
@@ -1519,6 +1534,12 @@
 				F7827583179C2DB1001DF4D3 /* AppDelegate.cpp */,
 				F7827585179C2DB1001DF4D3 /* HelloWorldScene.h */,
 				F7827586179C2DB1001DF4D3 /* HelloWorldScene.cpp */,
+				F7827592179C3364001DF4D3 /* GameScene.h */,
+				F7827591179C3364001DF4D3 /* GameScene.cpp */,
+				F7827595179C35C9001DF4D3 /* HelpScene.h */,
+				F7827594179C35C9001DF4D3 /* HelpScene.cpp */,
+				F7827597179C35C9001DF4D3 /* OptionScene.h */,
+				F7827596179C35C9001DF4D3 /* OptionScene.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1585,6 +1606,8 @@
 				F782730A179C2DAB001DF4D3 /* Icon@2x.png in Resources */,
 				F782730C179C2DAB001DF4D3 /* iTunesArtwork in Resources */,
 				F782739E179C2DAC001DF4D3 /* ChangeLog in Resources */,
+				F782758E179C2E3B001DF4D3 /* Default-568h@2x.png in Resources */,
+				F7827590179C30C6001DF4D3 /* BM-HANNA.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1769,6 +1792,9 @@
 				F782757B179C2DB1001DF4D3 /* HttpClient.cpp in Sources */,
 				F7827584179C2DB1001DF4D3 /* AppDelegate.cpp in Sources */,
 				F7827587179C2DB1001DF4D3 /* HelloWorldScene.cpp in Sources */,
+				F7827593179C3364001DF4D3 /* GameScene.cpp in Sources */,
+				F7827598179C35CA001DF4D3 /* HelpScene.cpp in Sources */,
+				F7827599179C35CA001DF4D3 /* OptionScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
